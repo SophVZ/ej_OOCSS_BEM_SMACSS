@@ -1,0 +1,170 @@
+/*BASE*/
+body {
+    background-color: rgb(253, 199, 235); 
+    font-family:  Arial;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/*LAYOUT*/
+.layout-header {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
+
+/*MODULE*/
+.module .tarjeta {
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    min-width: 245px;
+}
+
+.module h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.module img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+.module h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.module p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.module .cursiva {
+    font-style: oblique;
+}
+
+.module .boton-arriba {
+    border: 1vw none;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+@media (min-width: 360px) {
+            .module .tarjeta {
+                margin: 2rem auto;
+            }
+
+            .module h1 {
+                font-size: 1.2rem;
+            }
+
+            .module h2 {
+                font-size: 1rem;
+            }
+
+            .module p {
+                font-size: 0.9rem;
+            }
+        }
+
+@media (min-width: 550px) {
+            .module .tarjeta {
+                margin: 2rem auto;
+            }
+
+            .module h1 {
+                font-size: 1.6rem;
+            }
+
+            .module h2 {
+                font-size: 1.4rem;
+            }
+
+            .module p {
+                font-size: 1.2rem;
+            }
+        }
+
+@media (min-width: 800px) {
+            .module .tarjeta {
+                margin: 2.5rem auto;
+            }
+
+            .module h1 {
+                font-size: 2rem;
+            }
+
+            .module h2 {
+                font-size: 1.6rem;
+            }
+
+            .module p {
+                font-size: 1.4rem;
+            }
+        }
+
+@media (min-width: 1000px) {
+            .module .tarjeta {
+                margin: 3rem auto;
+            }
+
+            .module h1 {
+                font-size: 2.2rem;
+            }
+
+            .module h2 {
+                font-size: 1.8rem;
+            }
+
+            .module p {
+                font-size: 1.4rem;
+            }
+        }
+
+/*STATE*/
+/*corresponderia a la responsividad del navbar, pero esta hecha con Bootstrap*/
+
+/*THEME*/
+.module .tarjeta {
+    background-color: white;
+    border: 1vw dotted firebrick ;
+}
+
+.module h1 {
+    color: black;
+}
+
+.module h2 {
+    color: rgb(226, 45, 91);
+}
+
+.module p {
+    color: rgb(119, 8, 45);
+}
+
+.module .boton-arriba {
+    background-color: rgb(248, 48, 115) ;
+    color: whitesmoke;
+}

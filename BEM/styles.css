@@ -1,0 +1,174 @@
+
+/*página es el estilo del body, si bien no es un bloque, es necesario estilizarlo con la opción de cambio de color para cambiar el tema, lo mismo para las clases globales página-*/
+.pagina {
+    font-family:  Arial;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.pagina--pink {
+        background-color: rgb(253, 199, 235); 
+}
+
+.pagina-header {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
+
+.pagina-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/*.navegador {
+    el navbar a pesar de ser un bloque esta hecho con los estilos de Bootstrap
+}*/
+
+.tarjeta {
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1vw dotted black;
+    border-radius: 1rem;
+    min-width: 245px;
+}
+
+.tarjeta--pink {
+    border-color: firebrick;
+}
+
+.tarjeta__titulo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tarjeta__img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+.tarjeta__h2 {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.tarjeta__h2--pink {
+    color: rgb(226, 45, 91);
+}
+
+.tarjeta__p {
+    color: black;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.tarjeta__p--pink {
+    color: rgb(119, 8, 45);
+}
+
+.tarjeta--cursiva {
+    font-style: oblique;
+}
+
+.boton-arriba {
+    background-color: white ;
+    border: 1vw none;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.boton-arriba--pink {
+    background-color: rgb(248, 48, 115) ;
+    color: whitesmoke;
+}
+
+@media (min-width: 360px) {
+            .tarjeta {
+                margin: 2rem auto;
+            }
+
+            .tarjeta__titulo {
+                font-size: 1.2rem;
+            }
+
+            .tarjeta__h2 {
+                font-size: 1rem;
+            }
+
+            .tarjeta__p {
+                font-size: 0.9rem;
+            }
+        }
+
+@media (min-width: 550px) {
+            .tarjeta {
+                margin: 2rem auto;
+            }
+
+            .tarjeta__titulo {
+                font-size: 1.6rem;
+            }
+
+            .tarjeta__h2 {
+                font-size: 1.4rem;
+            }
+
+            .tarjeta__p {
+                font-size: 1.2rem;
+            }
+        }
+
+@media (min-width: 800px) {
+            .tarjeta {
+                margin: 2.5rem auto;
+            }
+
+            .tarjeta__titulo {
+                font-size: 2rem;
+            }
+
+            .tarjeta__h2 {
+                font-size: 1.6rem;
+            }
+
+            .tarjeta__p {
+                font-size: 1.4rem;
+            }
+        }
+
+@media (min-width: 1000px) {
+            .tarjeta {
+                margin: 3rem auto;
+            }
+
+            .tarjeta__titulo {
+                font-size: 2.2rem;
+            }
+
+            .tarjeta__h2 {
+                font-size: 1.8rem;
+            }
+
+            .tarjeta__p {
+                font-size: 1.4rem;
+            }
+        }
